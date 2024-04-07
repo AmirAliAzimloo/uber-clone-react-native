@@ -6,7 +6,7 @@ import {StyledMapView, Container} from './MapScreen.styles';
 
 const MapScreen = () => {
   return (
-    <StyledMapView />
+    <StyledMapView /> 
   )
 }
  

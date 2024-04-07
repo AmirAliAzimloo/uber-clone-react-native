@@ -1,14 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet,  } from 'react-native'
 import React from 'react'
+import MapScreen from 'screens/MapScreen/MapScreen'
+import { LocationPermissionsService } from 'services/LocationPermissionsService'
 
-const App = () => {
+export const App = () => {
   return (
-    <View>
-      <Text>hello world!</Text>
-    </View>
+   <>
+   <MapScreen />
+   <LocationPermissionsService />
+   </>
   )
 }
 
-export default App
 
 const styles = StyleSheet.create({})
